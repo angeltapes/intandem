@@ -3,7 +3,7 @@
  */
 
 function setup() {
-   createCanvas(2500,1000);
+   createCanvas(1500,1000);
    mic = new p5.AudioIn();
    mic.start();
    img = loadImage("images/fifi-drawing.svg");
