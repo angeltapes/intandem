@@ -3,9 +3,10 @@
  */
 
 function setup() {
-   createCanvas(400,400);
+   createCanvas(1000,2000);
    mic = new p5.AudioIn();
    mic.start();
+   img = loadImage("images/fifi-drawing.svg");
 }
 
 function draw() {
