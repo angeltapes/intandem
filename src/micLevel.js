@@ -11,9 +11,10 @@ function setup() {
 
 function draw() {
    background(255);
-   image(img, 0, 0,width,height);
+   
 
    // getLevel takes an optional smoothing value, or defaults to 0.0
    micLevel = mic.getLevel();
-   ellipse(width/2, height - micLevel*height, 100, 100);
+   //ellipse(width/2, height - micLevel*height, 100, 100);
+   image(img, 0, micLevel,width,height);
 }
