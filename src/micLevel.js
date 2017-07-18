@@ -10,7 +10,8 @@ function setup() {
 }
 
 function draw() {
-   background(0);
+   background(255);
+   image(img, 0, 0,width,height);
 
    // getLevel takes an optional smoothing value, or defaults to 0.0
    micLevel = mic.getLevel();
